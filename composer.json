@@ -1,0 +1,8 @@
+{
+	"name": "__SLUG__/__SLUG__",
+	"description": "__DESC__",
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=8.4"
+	}
+}
