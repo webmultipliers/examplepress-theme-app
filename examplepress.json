@@ -3,9 +3,17 @@
 	"name": "__NAME__",
 	"slug": "__SLUG__",
 	"description": "__DESC__",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"routing": {
-		"priority": 10
+		"priority": 10,
+		"routes": {
+			"__SLUG__": {
+				"urls": [
+					"/app/__SLUG__/"
+				],
+				"desc": "__NAME__"
+			}
+		}
 	},
 	"troy": {
 		"server_url": "__TROY__",
