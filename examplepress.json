@@ -3,7 +3,14 @@
 	"name": "__NAME__",
 	"slug": "__SLUG__",
 	"description": "__DESC__",
-	"version": "1.0.0",
+	"version": "0.0.0",
+	"updater": {
+		"github_repo": "",
+		"asset_filename": "__SLUG__.zip",
+		"default_channel": "stable",
+		"requires_wp": "6.9",
+		"requires_php": "8.4"
+	},
 	"routing": {
 		"priority": 10,
 		"routes": {
@@ -16,7 +23,7 @@
 		}
 	},
 	"troy": {
-		"server_url": "__TROY__",
+		"server_url": "",
 		"repo": "",
 		"repo_id": ""
 	}

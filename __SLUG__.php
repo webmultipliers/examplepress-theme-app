@@ -4,7 +4,6 @@
  * Description: __DESC__
  * Version: 0.0.0
  * Theme: examplepress-theme
- * Troy: __TROY__
  * Requires at least: 6.9
  * Requires PHP: 8.4
  */
@@ -33,7 +32,7 @@ if ( function_exists( 'examplepress_register_route_origin' ) ) {
 */
 
 // ── 2. Rewrite the Template Prefix (Example) ──────────────────────
-// By default, ExamplePress expects template blocks to be prefixed 
+// By default, ExamplePress expects template blocks to be prefixed
 // with "template-" (e.g., __SLUG__/template-front).
 /*
 add_filter( 'examplepress_template_prefix', function( $prefix ) {

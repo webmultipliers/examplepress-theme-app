@@ -2,7 +2,7 @@
 
 __DESC__
 
-An [ExamplePress](https://github.com/webmultipliers/examplepress-theme) companion plugin.
+An [ExamplePress](https://github.com/webmultipliers/examplepress-mu) companion plugin.
 
 ## Setup
 
